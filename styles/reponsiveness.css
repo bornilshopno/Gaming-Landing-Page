@@ -1,0 +1,45 @@
+@media screen and (max-width:576px){
+ 
+    .header,.nav-menu,ul,.gamer-container,.page1,.career-container{
+        flex-direction: column;
+    }
+
+    .banner-container, .page2{
+        flex-direction: column-reverse;
+    }
+
+    .banner{
+        background-image:linear-gradient(to top,rgb(240, 234, 234) ,#ffffff);}
+
+    .banner-container>div,.gamer-container>div,.page1>div, .page2>div,.career-container>div {
+        width:100%
+        }     
+    
+    .banner-details{
+        text-align: center;
+        }
+    .game-info{
+        text-align: center;
+            padding-left:0px;
+        } 
+    .video-container{
+        grid-template-columns: repeat(1,1fr);
+        }       
+    .page-2-right{
+        text-align:center;
+        padding-left:0px;
+        }
+    .page2 img{
+        width:80%;
+        padding-right: 20%;
+        }    
+    .page-1-left{
+        text-align:center;
+        padding-right:0px;
+        }
+
+    .page1 img{
+        width:80%;
+        padding-left: 20%;
+        }
+}
