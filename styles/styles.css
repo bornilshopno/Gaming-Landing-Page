@@ -107,7 +107,10 @@ a{
 }
 .goat{
     text-transform: uppercase;
-    color:rgb(215, 59, 215);
+    /* color:rgb(215, 59, 215); */
+    background-image: linear-gradient(rgba(69, 4, 45, 0.959), rgb(237, 45, 218));
+    background-clip: text;
+    color:transparent;
     font-size:40px;
     font-weight:1000;
     padding: 10px 0;
@@ -141,6 +144,11 @@ object-fit: cover;
 .game-info{
     text-align: right;
     padding-left:20px;
+}
+.game-info h2{
+    background-image: linear-gradient(rgba(69, 4, 45, 0.959), rgb(237, 45, 218));
+    background-clip: text;
+    color:transparent;
 }
 
 /* Funny Video Section */
